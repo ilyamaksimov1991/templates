@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b197c30-632b-4fa7-a675-0b519eaebcdc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flyweight/Autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Flyweight/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flyweight/flyweight/AFlyweight.php" afterPath="$PROJECT_DIR$/Flyweight/flyweight/AFlyweight.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flyweight/flyweight/BmwFlyweight.php" afterPath="$PROJECT_DIR$/Flyweight/flyweight/BmwFlyweight.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flyweight/flyweight/MazdaFlyweight.php" afterPath="$PROJECT_DIR$/Flyweight/flyweight/MazdaFlyweight.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flyweight/flyweight/PorcheFlyweight.php" afterPath="$PROJECT_DIR$/Flyweight/flyweight/PorcheFlyweight.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Flyweight/flyweightFactory/FlyweightFactory.php" afterPath="$PROJECT_DIR$/Flyweight/flyweightFactory/FlyweightFactory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chain of Responsibility/account/AAccount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chain of Responsibility/account/Bitcoin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chain of Responsibility/account/Paypal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="templates.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,24 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FlyweightFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Flyweight/flyweightFactory/FlyweightFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-              <folding>
-                <element signature="e#35#62#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Flyweight/index.php">
+        <entry file="file://$PROJECT_DIR$/Chain of Responsibility/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <element signature="e#36#53#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +53,12 @@
         <option value="$PROJECT_DIR$/Flyweight/flyweight/BmwFlyweight.php" />
         <option value="$PROJECT_DIR$/Flyweight/flyweightFactory/FlyweightFactory.php" />
         <option value="$PROJECT_DIR$/Flyweight/index.php" />
+        <option value="$PROJECT_DIR$/Chain of Responsibility/account/Payal.php" />
+        <option value="$PROJECT_DIR$/Chain of Responsibility/account/Bank.php" />
+        <option value="$PROJECT_DIR$/Chain of Responsibility/account/Paypal.php" />
+        <option value="$PROJECT_DIR$/Chain of Responsibility/account/Bitcoin.php" />
+        <option value="$PROJECT_DIR$/Chain of Responsibility/account/AAccount.php" />
+        <option value="$PROJECT_DIR$/Chain of Responsibility/index.php" />
       </list>
     </option>
   </component>
@@ -79,7 +71,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -136,7 +128,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Flyweight" />
+              <option name="myItemId" value="strategy" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -150,11 +142,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Flyweight" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flyweightFactory" />
+              <option name="myItemId" value="Chain of Responsibility" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -168,11 +156,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Flyweight" />
+              <option name="myItemId" value="Chain of Responsibility" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flyweight" />
+              <option name="myItemId" value="account" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -186,6 +174,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Программирование\OpenServer\domains\chabloni.proectirovania\templates\Chain of Responsibility" />
       <recent name="C:\Программирование\OpenServer\domains\chabloni.proectirovania\templates\Flyweight" />
     </key>
   </component>
@@ -225,21 +214,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511004338257</updated>
-      <workItem from="1511004340787" duration="3408000" />
+      <workItem from="1511004340787" duration="7251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3408000" />
+    <option name="totallyTimeSpent" value="7251000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19128509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18594436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -319,6 +308,48 @@
         <state relative-caret-position="408">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chain of Responsibility/account/AAccount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="79" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chain of Responsibility/account/Paypal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chain of Responsibility/account/Bitcoin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chain of Responsibility/account/Bank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chain of Responsibility/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#36#53#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
