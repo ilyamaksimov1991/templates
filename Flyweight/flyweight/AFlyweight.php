@@ -6,8 +6,7 @@ abstract class AFlyweight
 {
     protected  $name= 'BMW';
     protected  $speed=180;
-    protected $color;
+    protected  $color;
     
     abstract public function display($color);
-
 }

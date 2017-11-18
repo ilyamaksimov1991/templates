@@ -4,8 +4,12 @@ namespace flyweight;
 
 class MazdaFlyweight
 {
-    protected $name = 'Mazda';
-    protected $speed = 210;
+    public function __construct()
+    {
+        $this->name = 'Mazda';
+        $this->speed = 210;
+    }
+
 
     public function display($color)
     {

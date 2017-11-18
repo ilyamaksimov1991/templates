@@ -1,12 +1,12 @@
 <?php
 namespace flyweight;
-
-
 class BmwFlyweight
 {
-    public $name = 'BMW';
-    public $speed = 180;
-
+    public function __construct()
+    {$this->name = 'BMW';
+        $this->speed = 180;
+        sleep(3);
+    }
     public function display($color)
     {
         $this->color = $color;
